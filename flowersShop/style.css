@@ -17,7 +17,7 @@ main{
 
 
 .Anemon{
-    background-image: url(/img/анемон.jpeg);
+    background-image: url(./img/анемон.jpeg);
     background-size: cover;
 }
 
