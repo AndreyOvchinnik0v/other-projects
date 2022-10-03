@@ -1,0 +1,228 @@
+body{
+    caret-color: rgba(255, 255, 255, 0);
+    margin: 0px;
+    background-color:rgb(255, 255, 155);
+   
+}
+
+header{
+    background-color: rgb(212, 236, 255);
+    height: 100px;
+}
+
+main{
+    display: flex;
+    
+}
+
+
+.Anemon{
+    background-image: url(/img/анемон.jpeg);
+    background-size: cover;
+}
+
+.Armalis{
+    background-image: url(./img/армаралис.jpeg);
+    background-size: cover;
+}
+
+.Gerbera{
+    background-image:url(./img/Гербера.jpeg);
+    background-size:cover;
+}
+
+.cart {
+    background-color: rgb(250, 186, 197);
+    min-width: 50%;
+    min-height: 837px;
+}
+
+.Gvozdika{
+    background-image:url(./img/гвоздика.jpeg);
+    background-size:cover;
+}
+.Liziantus{
+    background-image:url(./img/Лизиантус.jpeg);
+    background-size:cover;
+}
+.Narcis{
+    background-image:url(./img/Нарцис.jpeg);
+    background-size:cover;
+}
+.Orchideya{
+    background-image:url(./img/орхидея.jpeg);
+    background-size:cover;
+}
+.Pion{
+    background-image:url(./img/пион.jpeg);
+    background-size:cover;
+}
+.Rosa{
+    background-image:url(./img/роза.jpeg);
+    background-size:cover;
+}
+.Romashka{
+    background-image:url(./img/Ромашка.jpeg);
+    background-size:cover;
+}
+.Tulpan{
+    background-image:url(./img/Тюльпан.jpeg);
+    background-size:cover;
+}
+.Celoziya{
+    background-image:url(./img/целозия.jpeg);
+    background-size:cover;
+}
+
+h1 {
+    font-size: 35px;
+    width: 25%;
+    margin: auto;
+    padding-top: 10px;
+    margin-left: calc(50% - 5%);
+    color: yellowgreen;  
+    /* line-height: 80px ; */
+}
+
+span {
+    display: block;
+    margin-left: calc(50% - 80px);
+    /* padding-left: calc(50% - 100px); */
+    font-size: 32px;
+}
+
+.catalog {   
+    margin: auto;
+    margin-top: 0;
+    bottom: 290px;
+    display: flex;   
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+
+.cardsInCart{
+    position: relative;
+    bottom: 290px;
+    height: 100px;
+}
+
+
+
+.card { 
+    line-height: 220px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: min(20px);
+   width: 150px;  
+    
+}
+
+
+.cardInCart{
+    margin: 0;
+    border-radius:50%;
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+
+.item{
+    border: solid 5px rgb(124, 246, 255);
+    
+}
+
+.item-0{
+    position: absolute;
+    margin-top: 690px;
+    margin-left: calc(43% - 40px);
+    z-index: 12;
+}
+
+.item-1{
+    position: absolute;
+    margin-top: 595px;
+    margin-left: calc(37% - 40px);
+    z-index: 11;
+
+}
+
+.item-2{
+    position: absolute;
+    margin-top: 595px;
+    margin-left: calc(49% - 40px);
+    z-index: 10;
+    
+}
+
+.item-3{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: calc(31% - 40px);
+    z-index: 9;
+}
+
+.item-4{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: calc(43% - 40px);
+    z-index: 8;
+
+}
+
+.item-5{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: calc(55% - 40px);
+    z-index: 7;
+}
+
+.item-6{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: calc(25% - 40px);
+    z-index: 6;
+
+}
+
+.item-7{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: calc(37% - 40px);
+    z-index: 5;
+}
+
+.item-8{
+    position: absolute;
+    margin-top:  400px;;
+    margin-left: calc(49% - 40px);
+    z-index: 4;
+}
+
+.item-9{
+    position: absolute;
+    margin-top:  400px;;
+    margin-left: calc(61% - 40px);
+    z-index: 3;
+}
+
+.item-10{
+    position: absolute;
+    margin-top:  310px;;
+    margin-left: calc(43% - 40px);
+    z-index: 13;
+}
+
+.item-11{
+    position: absolute;
+    margin-top: 790px;
+    margin-left: calc(43% - 40px);
+    z-index: 12;
+}
+
+.sum{
+ position: absolute;
+ margin-left: 0;
+ margin-top: 550px;
+}
